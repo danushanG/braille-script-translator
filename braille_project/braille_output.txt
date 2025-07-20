@@ -1,0 +1,5 @@
+Braille Script Translation
+
+Cell 1: 000100 → ?
+
+Final Decoded Text: ?
