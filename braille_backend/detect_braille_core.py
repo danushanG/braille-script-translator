@@ -41,7 +41,13 @@ def get_braille_binary_from_positions(cell):
 
 def process_braille_image(image_path):
     results = model(image_path)
+    if not results or len(results) == 0:
+        return "No results found."
+
     result = results[0]
+
+    if not result.boxes or len(result.boxes) == 0:
+        return "No braille dots detected."
 
     dot_centers = []
     for box in result.boxes:
@@ -60,3 +66,4 @@ def process_braille_image(image_path):
         translated_chars.append(char)
 
     return "".join(translated_chars)
+

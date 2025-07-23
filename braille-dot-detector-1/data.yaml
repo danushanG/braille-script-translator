@@ -1,0 +1,17 @@
+names:
+- A
+- B
+- E
+- I
+- O
+- U
+nc: 6
+roboflow:
+  license: CC BY 4.0
+  project: braille-translator-otn1h
+  url: https://universe.roboflow.com/danushan/braille-translator-otn1h/dataset/1
+  version: 1
+  workspace: danushan
+test: ../test/images
+train: ../train/images
+val: ../valid/images
