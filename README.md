@@ -27,7 +27,7 @@ Before running the system, please make sure you have installed:
 
 ### 1. Clone or Download
 - Clone using Git:
-- git clone [https://github.com/<your-username>/<repo-name>.git](https://github.com/danushanG/braille-script-translator.git)
+- git clone https://github.com/<your-username>/<repo-name>.git](https://github.com/danushanG/braille-script-translator.git
 - cd braille-script-translator
 
 ## 2. Backend Setup (Flask + YOLOv8)
